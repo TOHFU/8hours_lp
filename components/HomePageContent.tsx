@@ -116,7 +116,7 @@ export function HomePageContent() {
       <section className="fade-in pt-12 pb-12 flex flex-col items-center justify-center h-screen relative min-h-max">
         <p className="text-center">Available for download on GitHub.</p>
         <a
-          className="mt-3 bg-white rounded-md hover:bg-gray-300 transition-colors duration-300"
+          className="mt-6 px-4 bg-white rounded-md hover:bg-gray-300 transition-colors duration-300"
           href="https://github.com/TOHFU/8hours/releases/"
           target="_blank"
           rel="noopener noreferrer"

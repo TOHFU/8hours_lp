@@ -42,7 +42,7 @@ export function HomePageContent() {
         <AnimatedTimerArcBackground />
         <div className="fade-in fade-in-immediate relative z-10 flex flex-col items-center">
           <h1 className="text-8xl text-center">8hours</h1>
-          <p className="mt-4 text-center">8h Timer + 15m Pomodoro & To-Do List</p>
+          <p className="mt-4 text-center">8h Timer + 25m Pomodoro & To-Do List</p>
         </div>
       </section>
       <section className=" p-10 flex flex-col align-center items-center justify-center h-screen mh-800 relative">
@@ -108,7 +108,7 @@ export function HomePageContent() {
           src="/assets/image/bubble03.png"
           width={175}
           height={115}
-          alt="15 minutespomodoro timer."
+          alt="25 minutespomodoro timer."
           className="absolute top-[-160px] left-0 right-30 bottom-20 m-auto pointer-events-none"
           loading="lazy"
         />

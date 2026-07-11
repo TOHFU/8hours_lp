@@ -29,3 +29,12 @@ body {
   font-family: var(--font-oswald), sans-serif;
 }
 
+.fade-in {
+  @apply opacity-0 translate-y-4 transition-[opacity,transform] duration-1200 ease-out delay-300;
+  visibility: hidden;
+}
+
+.fade-in.show {
+  @apply opacity-100 translate-y-0;
+  visibility: visible;
+}

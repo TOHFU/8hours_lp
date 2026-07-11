@@ -113,7 +113,7 @@ export function HomePageContent() {
           loading="lazy"
         />
       </section>
-      <section className="fade-in pt-12 pb-12 flex flex-col items-center justify-center h-screen relative min-h-max">
+      <section className="fade-in pt-26 pb-12 flex flex-col items-center justify-center h-screen relative min-h-max">
         <p className="text-center">Available for download on GitHub.</p>
         <a
           className="mt-12 px-4 bg-white rounded-md hover:bg-gray-300 transition-colors duration-300"
@@ -129,7 +129,7 @@ export function HomePageContent() {
             className="w-30 h-auto"
           />
         </a>
-        <p className="text-left mt-4 text-[10px] w-[400px]">※有料 Apple Developer Program 未加入のため、初回起動時に Gatekeeper の警告が出る場合があります。「システム設定」→「プライバシーとセキュリティ」→「"8hours" は開発元を確認できないため…」の 「このまま開く」を押してください。</p>
+        <p className="text-left mt-4 text-[10px] w-[320px]">※有料 Apple Developer Program 未加入のため、初回起動時に Gatekeeper の警告が出る場合があります。「システム設定」→「プライバシーとセキュリティ」→「"8hours" は開発元を確認できないため…」の 「このまま開く」を押してください。</p>
         <div className="font-system-ui absolute bottom-0 right-0 pb-5 pr-5">
           <p className="text-right text-xs">
             <a href="https://tohfu-tronica.netlify.app/" target="_blank" rel="noopener noreferrer">

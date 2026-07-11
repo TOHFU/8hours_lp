@@ -67,17 +67,17 @@ export function HomePageContent() {
           loading="lazy"
         />
       </section>
-      <section className="fade-in pt-12 pb-12 flex items-center justify-center h-screen relative min-h-max overflow-hidden">
+      <section className="pt-12 pb-[195px] flex items-center justify-center h-screen relative min-h-max overflow-x-hidden">
         <img
           src="/assets/image/desktop.png"
           width={1500}
-          height={900}
+          height={1269}
           alt="desktop"
-          className="min-w-[1500px] min-h-[900px] left-[-560px] relative"
+          className="min-w-[1500px] min-h-[1269px] left-[-420px] top-[195px] relative"
           loading="lazy"
         />
         <iframe
-          className="absolute top-0 left-0 right-0 bottom-5 m-auto"
+          className="absolute top-[-155px] left-0 right-0 bottom-5 m-auto"
           src="https://8hours.vercel.app/"
           allow="accelerometer;"
           referrerPolicy="strict-origin-when-cross-origin"
@@ -85,7 +85,7 @@ export function HomePageContent() {
           width={219}
           height={650}
         ></iframe>
-        <div className="w-40 h-4 absolute top-0 bottom-180 left-23 right-0 m-auto">
+        <div className="w-40 h-4 absolute top-[-145px] bottom-180 left-23 right-0 m-auto">
           <p className="text-time font-system-ui text-sm font-medium text-center">{`${String(new Date().getMonth() + 1)}月${String(new Date().getDate())}日 (${["日", "月", "火", "水", "木", "金", "土"][new Date().getDay()]}) ${String(new Date().getHours()).padStart(2, "0")}:${String(new Date().getMinutes()).padStart(2, "0")}`}</p>
         </div>
         <img
@@ -93,7 +93,7 @@ export function HomePageContent() {
           width={184}
           height={96}
           alt="15 minutespomodoro timer."
-          className="absolute top-0 left-0 right-85 bottom-168 m-auto pointer-events-none"
+          className="absolute top-[-160px] left-0 right-85 bottom-168 m-auto pointer-events-none"
           loading="lazy"
         />
         <img
@@ -101,7 +101,7 @@ export function HomePageContent() {
           width={195}
           height={94}
           alt="15 minutespomodoro timer."
-          className="absolute top-0 left-0 right-60 bottom-65 m-auto pointer-events-none"
+          className="absolute top-[-140px] left-0 right-60 bottom-65 m-auto pointer-events-none"
           loading="lazy"
         />
         <img
@@ -109,7 +109,7 @@ export function HomePageContent() {
           width={175}
           height={115}
           alt="15 minutespomodoro timer."
-          className="absolute top-0 left-0 right-30 bottom-20 m-auto pointer-events-none"
+          className="absolute top-[-160px] left-0 right-30 bottom-20 m-auto pointer-events-none"
           loading="lazy"
         />
       </section>

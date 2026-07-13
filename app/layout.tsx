@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP, Oswald } from "next/font/google";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/GoogleTagManager";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -32,8 +36,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: siteConfig.ogImage,
-        width: 1920,
-        height: 1080,
+        width: 1200,
+        height: 630,
         alt: siteConfig.title,
       },
     ],
@@ -63,7 +67,9 @@ export default function RootLayout({
       lang="ja"
       className={`${oswald.variable} ${notoSansJP.variable} h-full antialiased`}
     >
+      <GoogleTagManager />
       <body className={`${oswald.className} flex min-h-full flex-col`}>
+        <GoogleTagManagerNoScript />
         {children}
       </body>
     </html>
